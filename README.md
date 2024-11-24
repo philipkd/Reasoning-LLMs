@@ -1,12 +1,22 @@
 # Reasoning LLMs
 
-[Philip Dhingra's](https://philipkd.com/) latest thoughts on reasoning LLMs.
+[Philip Dhingra](https://philipkd.com/)'s latest thoughts on reasoning LLMs.
 
 # About me
 
-* 2021 - Achieved SOTA for [ARC-AGI on Kaggle (+38% accuracy)](https://www.kaggle.com/competitions/abstraction-and-reasoning-challenge/discussion/234352)
-* 2021 - [Won a silver medal](https://www.kaggle.com/competitions/birdclef-2021/discussion/243343) in Cornell's BirdCLEF competition on Kaggle
-* [read more...](https://philipkd.com/)
+I'm an independent AGI researcher and consultant based in San Francisco, and I co-work out of the Canopy Jackson Square office.
+
+During the pandemic, I built a prototype for Chain-of-Thought prompting and then achieved SOTA for [ARC-AGI on Kaggle (+38% accuracy)](https://www.kaggle.com/competitions/abstraction-and-reasoning-challenge/discussion/234352). Afterwards, I [won a silver medal](https://www.kaggle.com/competitions/birdclef-2021/discussion/243343) in Cornell's BirdCLEF competition. You can read more [about me here](https://philipkd.com/) or check out [my LinkedIn](https://www.linkedin.com/in/philipkd/).
+
+# Multi-query problem-solving
+
+Sam Altman wants customers to run ChatGPT queries not just for minutes, but days, maybe even months, to solve hard math problems, such as the [Riemann Hypothesis](https://x.com/polynoamial/status/1834280969786065278), or to find new cancer drugs. However, the reception to OpenAI's latest model, o1-preview, has been lukewarm, at best. What went wrong?
+
+Open-source researchers like myself are still trying to reverse-engineer o1, and so far, it looks like a bespoke version of either Tree-of-Thoughts (ToT) or one of the other "of-Thoughts" approaches. (see below) I believe ToT-style approaches can bear fruit if we focus on hard, not soft, feedback. Not every problem would apply here, but consider either Game of 24 or ARC-AGI (the subject of my research). With these "puzzles," you don't have to wait for the hidden test set to validate the model's predictions. With Go24, you can simply check whether the arithmetic operations get you to 24. With ARC-AGI, if you use a code-gen approach, like what [Ryan Greenblat did](https://redwoodresearch.substack.com/p/getting-50-sota-on-arc-agi-with-gpt), you can just run the code against the inputs and test for consistency.
+
+At every reasoning step, you can mathematically verify whether ToT got it right. This way, the LLM builds true experience, as opposed to what it appears o1 is doing, which is using the LLM to analyze its own prompt outputs. o1 currently recapitulates some of the same garbage-in/garbage-out traps that lots of LLM research has fallen into over the last two years. Everybody thought that more parameters, better prompts, larger context windows, or multiple agents would provide categorical improvements to LLMs. But now we're in the winter of AI discontent, feeling like these gains are starting to "log out," i.e., proving to be sources of logarithmic—not exponential—gains.
+
+But what if we could provide hard deterministic feedback for systems that are run outside the LLM, as opposed to the soft fuzzy feedback from the LLM itself? Couldn't we escape the garbage-in/garbage-out trap?
 
 # The "of-Thoughts" family
 
