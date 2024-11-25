@@ -4,7 +4,7 @@
 
 # About me
 
-I'm an independent AGI researcher and consultant based in San Francisco, and I co-work out of the Canopy Jackson Square office.
+I'm an independent AGI researcher and consultant based in San Francisco. I also co-work out of the Canopy Jackson Square office.
 
 During the pandemic, I built a prototype for Chain-of-Thought prompting and then achieved SOTA for [ARC-AGI on Kaggle (+38% accuracy)](https://www.kaggle.com/competitions/abstraction-and-reasoning-challenge/discussion/234352). Afterwards, I [won a silver medal](https://www.kaggle.com/competitions/birdclef-2021/discussion/243343) in Cornell's BirdCLEF competition. You can read more [about me here](https://philipkd.com/) or check out [my LinkedIn](https://www.linkedin.com/in/philipkd/).
 
