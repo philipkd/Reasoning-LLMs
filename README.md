@@ -22,7 +22,9 @@ But what if we could provide hard deterministic feedback for systems that are ru
 
 We're two generations into the "of Thoughts" strategy for augmenting LLMs, and progress is moving fast. AI critics like Gary Marcus mock these as mere "prompt engineering" techniques, but when you start to get to the multi-query methods, as shown in Tree-of-Thoughts and [OpenAI's o1](https://openai.com/index/introducing-openai-o1-preview/), it's apparent we've only scratched the surface.
 
-Here is a brief timeline (1 line = 1 month)
+A brief timeline:
+
+(1 line = 1 month)
 
 2022 Oct 31 - [Chain of Thoughts](https://openreview.net/forum?id=_VjQlMeSB_J) (first generation)  
 .  
@@ -50,4 +52,26 @@ Here is a brief timeline (1 line = 1 month)
 .  
 .  
 .  
-*present*
+(present)
+
+# AI code assistants
+
+(1 line = 1 quarter)
+
+[2021 Oct 29](https://en.wikipedia.org/wiki/GitHub_Copilot#cite_ref-:0_1-1) - GitHub Copilot plugin released using Codex, a [descendent of GPT-3](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
+.  
+.  
+.  
+.  
+2022 Q1  
+.  
+.  
+.  
+2023 Q1  
+.  
+.  
+2023 Oct 15 - Cursor, which uses GPT-4, has its first post on [Hacker News](https://news.ycombinator.com/item?id=37888477)
+.  
+.  
+2024 Q3  
+(present)
