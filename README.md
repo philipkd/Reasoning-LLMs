@@ -70,7 +70,7 @@ A brief timeline:
 2023 Q1  
 .  
 .  
-2023 Oct 15 - Cursor, which uses GPT-4, has its first post on [Hacker News](https://news.ycombinator.com/item?id=37888477)
+2023 Oct 15 - Cursor, which uses GPT-4, has its first post on [Hacker News](https://news.ycombinator.com/item?id=37888477)  
 .  
 .  
 2024 Q3  
