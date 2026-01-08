@@ -72,10 +72,10 @@ Code generation is another aspect of LLM reasoning that I'm curious about. Here'
 2023 Oct 15 - Cursor, which uses GPT-4, has its first post on [Hacker News](https://news.ycombinator.com/item?id=37888477)
 2024 Q1
 .  
-.
-.
+.  
+.  
 2025 Q1
 2025 May - Claude Code becomes generally available
-.
-.
+.  
+.  
 (present)
